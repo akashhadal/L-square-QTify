@@ -1,5 +1,6 @@
 import './App.css';
 import Button from "./components/Button/Button";
+import SearchBar from './components/SearchBar/SearchBar';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </a>
       </header> */}
       <Button children={"Give Feedback"} />
+      <SearchBar search={"Search a song of your choice"} />
     </div>
   );
 }
