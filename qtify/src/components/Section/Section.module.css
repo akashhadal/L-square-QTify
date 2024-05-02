@@ -1,18 +1,27 @@
-.header{
+.sectionTop{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-.cardWrapper{
-    margin-top: 18px;
-}
-.wrapper{
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-}
 .toggleText{
     color: var(--color-primary);
     cursor: pointer;
+}
+
+.sectionInnerWrapper{
+    margin-top: 18px;
+}
+
+.showAllWrapper{
+    gap: 40px; 
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
