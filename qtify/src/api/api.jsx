@@ -28,3 +28,13 @@ export const fetchNewAlbums=async()=>{
     }
     
 }
+
+export const fetchSongs=async()=>{
+    try{
+        const res=await axios.get(`${BACKEND_ENPOINT}/songs`)
+        return res.data;
+    }
+    catch(error){
+        return null;
+    }
+}
